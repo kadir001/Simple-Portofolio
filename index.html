@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kadir - Dev Portfolio</title>
+  </head>
+  <body>
+    <header class="site_header">
+      <div class="wrapper_inner">
+        <nav class="site_header_nav">
+          <ul role="list" class="flex flex_center">
+            <li><a href="#0">HOME</a></li>
+            <li><a href="#about">OVER</a></li>
+            <li><a href="#work">WERK</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="wrapper">
+          <div class="wrapper_inner">
+            <div class="text_center hero_content">
+              <h1 class="h2">Kadir Akdemir</h1>
+              <p class="h5" id=typewriter></p>
+            </div>
+          </div>
+          <ul role="list" class="flex flex_between hero_social">
+            <address>Deventer, Overijssel</address>
+            <ul role="list" class="flex">
+              <li>Vind me online</li>
+              <li>
+                <a href="https://github.com/kadir001" target="_blank">
+                  <img
+                    src="./assets/icon-github.svg"
+                    alt="GitHub"
+                    width="24"
+                    height="24"
+                  />
+                </a>
+              </li>
+ 
+            </ul>
+          </ul>
+        </div>
+      </section>
+      <section id="about">
+        <div class="wrapper">
+          <div class="text_center">
+            <h2 class="">
+              Ik ben een web developer en een technical writer. Ik schrijf artikelen over web
+              development en programmeren.
+            </h2>
+          </div>
+          <div class="wrapper_inner">
+            <div class="about_content flex flex_around">
+              <figure class="about_figure text_center">
+                <img
+                  width="200px"
+                  height="200px"
+                  src="./assets/user.jpg"
+                  alt="Developer"
+                  class="about_img"
+                />
+                <figcaption class="about_caption">Kadir ❤️</figcaption>
+              </figure>
+              <p class="h5">
+                Ik ben bezig geweest met het re-designen van deze site.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work">
+        <div class="wrapper_inner">
+          <div class="text_center">
+            <h4 class="h5">
+              Tot nu toe heb ik twee jaar ervaring met het begeleiden van basisschoolleerlingen met Scratch.
+            </h4>
+            <ul role="list" class="work_logos flex flex_center">
+              <li>
+                <img src="./assets/logo1.png" alt="Acme Corp" />
+              </li>
+              <li>
+                <img src="./assets/logo2.png" alt="Acme Innovations" />
+              </li>
+              <li>
+                <img
+                  src="./assets/logo1.png"
+                  alt="Acme Solutions"
+                  width="50"
+                  height="50"
+                />
+              </li>
+              <li>
+                <img src="./assets/logo3.png" alt="Acme Technologies" />
+              </li>
+              <li>
+                <img src="./assets/logo1.png" alt="Acme Enterprises" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="wrapper">
+          <div class="text_left">
+            <p>
+              Heeft u een opdracht? <br />
+              Dan hoor ik graag van jou.
+            </p>
+          </div>
+
+          <div class="wrapper_inner">
+            <h5 class="h3">Neem contact op</h5>
+            <form action="" method="post" class="contact_form">
+              <div class="flex">
+                <div class="form_group">
+                  <label for="name">NAAM</label>
+                  <input type="text" id="name" name="name" />
+                </div>
+                <div class="form_group">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+              </div>
+              <div class="form_group">
+                <label for="message">BERICHT</label>
+                <textarea id="message" name="message"></textarea>
+              </div>
+              <button type="submit">ZEND BERICHT</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer">
+        <div class="wrapper">
+          <div class="text_right">
+            <p>&copy; 2025 Kadir Akdemir</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+	<script src="script.js"></script>
+  </body>
+</html>
